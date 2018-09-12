@@ -1,10 +1,10 @@
 # keyCourse
 Java程序设计课程网站
- 主页
+# 主页
 
 ![image](https://github.com/zhilige/keyCourse/blob/master/img/1.png)
 
-#子页
+# 子页
 
 ![image](https://github.com/zhilige/keyCourse/blob/master/img/2.png)
 
