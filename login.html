@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录中心</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<!--地址栏和标签上显示图标-->
+		<!--bootstrap引用-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style-home.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--页头-->
+
+		<nav class="navbar navbar-default navbar-fixed-top" style="background: white;">
+			<div class="header">
+
+				<img src="img/cylogo.png" />
+				<div class="logo-title">
+					<!--标题-->
+					<div class="zhuti">城市学院Java程序设计</div>
+					<div class="small-zhuti">课程服务平台</div>
+				</div>
+				<!--导航栏-->
+				<nav class="daohang">
+					<ul>
+						<li class="shouye" style="text-decoration:none;font-size: 19px;font-weight:bold;padding-bottom:7px;border-bottom:3px solid #50a3a2;">
+							<a href="index.html" style="color:#50a3a2;">首页</a>
+						</li>
+						<li class="ziyuan">
+							<a href="resource.html">资源</a>
+						</li>
+						<li class="jiaoxuetuand">
+							<a href="tool.html">开发工具</a>
+						</li>
+						<li class="news">
+							<a href="news.html">最新资讯</a>
+						</li>
+						<li class="kecheng">
+							<a href="course.html">课程学习</a>
+						</li>
+						<li class="kecheng">
+							<a href="examOnline.html">模拟测试</a>
+						</li>
+						<li class="moretitle">
+							<a href="askortalk.html">学习讨论</a>
+						</li>
+					</ul>
+
+				</nav>
+				<!--导航栏结束-->
+				<!--登录模块-->
+				<div class="denglu">
+					
+					<button type="button" class="btn btn-info"onclick="javascrtpt:window.location.href='login-admin.html'">后台管理</button>
+
+				</div>
+			</div>
+		</nav>
+		   <!--主体-->
+		 <div class="login-container">
+		 	<div class="login-body">
+		 	<div class="login-form">
+		 		<form class="login-form-xianshi">
+		 			<div class="login-form-header">用户登录</div>
+		 			   <div class="login-con">
+		 			   	<label class="login-us">账号：</label>
+		 			   	<input  type="text" class="login-username" placeholder="请输入学号"/>
+		 			   	<label class="login-ps">密码：</label>
+		 			   	<input  type="password" class="login-password" placeholder="请输入您的密码"/>
+		 			   	
+		 			   	<input class="login-denglu-btn" type="submit" value="登 录" />
+		 			   </div>
+		 			  
+		 		</form>
+		 		
+		 	</div>
+		 	</div>
+		 </div>
+		  <!--页脚-->
+		 <div class="login-footer">
+		 	<div class="footer-info">
+		 	<center>技术运营支持：东莞理工学院城市学院      
+			<br />
+			版权所有@CCDGUT | 联系我们：1342000000
+			</center>
+			</div>
+		 </div>
+		 
+	</body>
+</html>
